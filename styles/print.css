@@ -1,0 +1,21 @@
+header,
+#form,
+.hero,
+.image {
+  display: none;
+  padding: 0;
+  margin: 0;
+}
+
+.cards {
+  display: block;
+}
+
+.cards .card {
+  border-bottom: 1px solid;
+}
+
+.text--medium {
+  color: black;
+}
+/*# sourceMappingURL=print.css.map */

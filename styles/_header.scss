@@ -1,0 +1,39 @@
+header {
+  background-color: $primary-color;
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    @include responsive-width();
+  }
+
+  img {
+    width: 150px;
+    margin-left: 20px;
+    padding: 15px 0;
+  }
+
+  nav {
+    ul {
+      display: flex;
+      li {
+        list-style: none;
+
+        a {
+          font-size: 1.4rem;
+          text-decoration: none;
+          color: set-text-color($primary-color);
+          text-transform: uppercase;
+          padding: 24px;
+          transition: all 250ms linear 0s;
+
+          &:hover {
+            background: rgba(255, 255, 255, 0.15);
+          }
+        }
+      }
+    }
+  }
+}
